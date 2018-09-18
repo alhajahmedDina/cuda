@@ -1,0 +1,437 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+/* hero section css starts */
+.section{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 105px 0px;
+    box-sizing: border-box;
+    background-color: #87509c;
+}
+.heroSection{
+    padding-top:50px;
+}
+ nav{
+    width: 100%;
+    height: auto;
+ }
+.logo{
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: left;
+}
+.rightMenu{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+.rightMenu ul{
+    padding:0px;
+    float: right;
+}
+.rightMenu ul li{
+    list-style-type: none;
+    float: left;
+    margin-left:40px; 
+}
+.menu ul li:first-child{
+    margin-left:0px;
+}
+.rightMenu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.rightMenu ul li:first-child a , .rightMenu ul li a:hover{
+    border-bottom:1px solid white;
+   /* text-decoration: underline;*/
+}
+.link h1{
+    color: white;
+    margin-top:120px;
+    line-height: 36px;
+    font-size: 42px;
+}
+.link a{
+    width:300px;
+    height: 70px;
+    color: #ffffff;
+    background-color: #eb7d4b;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-bottom: 3px solid #c86a40;
+    transition-duration: 0.4s;
+    margin-top:50px; 
+    box-sizing: border-box;
+}
+/* hero section css ends */
+
+/* second section css starts */
+.secondSection{
+    background-color: #17c2a4;
+}
+.secondSection h2{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.secondSection p{
+    color: #ffffff;
+    font-size: 18px;
+}
+.rowBox{
+    width: 25%;
+    height: auto;
+    text-align: center;
+    float: left;
+    margin: 0 auto;
+}
+.rowBox h3{
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;  
+}
+.rowBox p{
+    width:240px;
+    font-size: 16px;  
+}
+/* second section css ends */
+
+/* third section css starts */
+.thirdSection{
+    background-color: #e7f1f8;
+}
+.thirdSection h2{
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100px;
+    text-transform: uppercase;
+}
+.thirdSection p.content{
+    color: #000000;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+.row{
+    width: 25%;
+    height: auto;
+    text-align: center;
+    float: left;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.row .img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #878787;
+    margin: 0 auto;
+        
+}
+.row h3{
+    color: #27283d;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    
+}
+.row span{
+    font-size: 16px;
+    color: #55c2e9;
+}
+.row p{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+ .socialMedia a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: #bdd1df;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    line-height: 30px;
+    margin-right: 5px;
+ }
+ .socialMedia a:hover{
+    background: #44a3e6;
+    transition-duration: 0.4s;
+ }
+ .socialMedia a:last-child{
+     margin-right:0px;
+ }
+/* third section css ends */
+
+/* fourth section css starts */
+.fourthSection{
+    width: 100%;
+    height: auto;
+    background-color: #ffdd99;
+    box-sizing: border-box;
+}
+.fourthSection h2{
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100px;
+    text-transform: uppercase;
+}
+.fourthSection p.portfolioDesc{
+    color: #000000;
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+} 
+.rowPics{
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+}
+.box{
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: center;
+    
+}
+.box img{
+    width: 400px;
+    height: 250px;
+}
+.box h3{
+    text-transform: uppercase;
+    font-weight: 100px;
+    font-size: 16px;
+}
+.fourthSection a{
+    width:300px;
+    height: 70px;
+    color: #ffffff;
+    background-color: #17c2a4;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-bottom: 3px solid #14a58c;
+    transition-duration: 0.4s;
+    margin-top:50px; 
+    box-sizing: border-box;
+    
+}
+/* fourth section css ends */
+
+/* fifth section css starts */
+.fifthSection{
+    background-color: #d74680;
+}
+.fifthSection h2{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 100px;
+    text-transform: uppercase;
+}
+.fifthSection p{
+    color: #ffffff;
+    width: 120px;
+    margin: 0 auto;
+}
+.grid{
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+.gridDesc{
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+.gridDesc .gridImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #787878;
+    float: left;
+}
+.gridDesc .content{
+    width: calc(100% - 100px);
+    float: right;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.content p{
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+}
+.content h3{
+   text-transform: uppercase;
+   text-align: left;
+   color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.content span{
+   text-align: left;
+   color: #e88e8a;
+   display: inline-block;
+   width: 100%;
+}
+/* fifth section css ends */
+/* sixth section css starts */
+.sixthSection{
+    background-color: #3c5499;    
+}
+.sixthSection h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100px;
+    text-transform: uppercase;
+}
+.sixthSection p{
+    color: #ffffff;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+} 
+.formPart{
+    width: 860px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+.mainInput{
+   width: 400px;
+    height: 50px;
+    background: #273a71;
+    outline: 0px;
+    border: 0px;
+    padding:0px 20px;
+    border-radius: 3px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+.mainInput .txt{
+    float:right;
+}
+.textMsg{
+    width: 830px;
+    height: 200px;
+    background: #273a71;
+    outline: 0px;
+    border: 0px;
+    padding:20px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    /*margin-left: 15px;*/
+    box-sizing: border-box;
+}
+::placeholder{
+    color:#ffffff;
+}
+.submitDiv{
+     width: 100%;
+     height: auto;
+     text-align: center
+}
+.sendBtn{
+    width: 295px;
+    height: 70px;
+    background: #30bae7;
+    font-size: 18px;
+    text-transform: uppercase;
+    border:0px;
+    color:white;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 3px solid #299ec5;
+}
+/* sixth section css ends */
+/* footer starts */
+.footer{
+    width: 100%;
+    height: 110px;
+    background: #344b8e;
+}
+.social{
+    width: 900px;
+    margin: 0 auto;
+}
+.footer ul{
+    list-style-type: none;
+    margin-top: 0;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.footer ul li{
+    float: left;
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+.footer ul li:last-child{
+    padding-right: 0;
+}
+.footer ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+.footer ul li:hover a{
+    color: #30bae7;
+}
+.footer ul li:nth-child(2) a{
+    color: #30bae7;
+}
+/* footer ends */
